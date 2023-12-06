@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Dropdown Extension</title>
+  <style>
+    body {
+      width: 300px; /* Set the desired width */
+      height: 200px; /* Set the desired height */
+      padding: 10px; /* Add padding for better aesthetics */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; /* Align to the top vertically */
+      align-items: center; /* Center horizontally */
+    }
+
+    select {
+      width: 100%; /* Make the dropdown take the full width of the container */
+      margin-bottom: 10px; /* Add margin for spacing */
+    }
+
+    #selectedOptionText {
+      text-align: center; /* Center text horizontally */
+    }
+
+    /* Add additional styles as needed */
+  </style>
+  <script src="popup.js"></script>
+</head>
+
+<body>
+  <h2>Summarizing Options</h2>
+  <select id="dropdown">
+    <option value="option1">General Summary</option>
+    <option value="option2">Food</option>
+    <option value="option3">Service</option>
+    <option value="option4">Ambiance</option>
+  </select>
+
+  <div id="selectedOptionText">Selected Option Text</div>
+
+</body>
+
+</html>

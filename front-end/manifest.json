@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Summit",
+    "version": "3.0",
+    "description": "Help foodies find food fast.",
+
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "scripting"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ]
+  }
+  
