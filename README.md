@@ -2,7 +2,6 @@
 
 This repository is for the Food Review Summarization project.
 
-</br>
 ### <u> data-processing </u>
 
 extract_reviews.ipynb
@@ -14,7 +13,6 @@ final_reviews.csv
 * Contains filtered reviews where each row corresponds to a restaurant
 * Each row has 10 reviews concatenated into a string
 
-</br>
 ### <u> summarization-models </u>
 
 #### This directory contains many files used for testing various models. Here are some of the noteworthy aspects of this directory:
@@ -53,7 +51,6 @@ inferenced_summaries.csv
 * Contains reviews mapped to generated summaries corresponding to respective restaurants
 
 
-</br>
 ### <u> model-creation </u>
 
 model_fine_tuning.ipynb
@@ -70,7 +67,6 @@ model_fine_tuning.ipynb
         * Final activation function converts "log odds of probability" (logits) to probability distribution
         * "accuracy" metric used in evaluation along with ground truth labels
 
-</br>
 ### <u> front-end </u>
 
 This directory includes files for the front-end of our product. We utilize Flask to run our chrome web extension.
